@@ -9,10 +9,11 @@
 
 /* Navbar */
 
-nav {
+.navbar {
     display: flex;
-    justify-content: space-between; /* Cambia el color de fondo a tu elección */
+    justify-content: space-between; 
     padding: 20px;
+    transition: top 0.3s;
 }
 
 .navbar-left {
@@ -25,6 +26,7 @@ nav {
     text-decoration: none;
     font-size: 60px;
     margin-left: 35px;
+    font-weight: bold;
 }
 
 .navbar-right {
@@ -123,6 +125,16 @@ ul li a:hover{
     font-size: 40px;
 }
 
+.project-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.project-text a:hover{
+    text-decoration: underline;
+    color: blue;
+    }
+
 .project-link {
     text-align: center;
 }
@@ -147,10 +159,7 @@ ul li a:hover{
     font-size: 45px;
 }
 
-.about-content h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
+
 
 .about-text {
     font-size: 45px;
@@ -166,3 +175,6 @@ ul li a:hover{
     color: #000000;
     font-weight: bold;
 }
+
+
+/* Responsive */
