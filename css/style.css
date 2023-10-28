@@ -73,8 +73,8 @@ ul li a:hover{
 /* Foto */
 
 .middle-section {
-    background-color: #f2f2f2; /* Color de fondo para la sección */
-    padding: 20px;
+    background-color: #ffffff; /* Color de fondo para la sección */
+    padding: 60px;
     text-align: center;
 }
 
@@ -86,10 +86,83 @@ ul li a:hover{
 }
 
 .text {
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-right: 750px;
 }
 
 .image {
     /* Estilos para la imagen, como márgenes, tamaño, etc. */
 }
 
+
+/* Projects */
+
+.projects-section {
+    background-color: #ffffff;
+    padding: 65px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 48%; 
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.project-info {
+    text-align: start;
+    padding-bottom: 6px;
+}
+
+.project-text {
+    font-size: 40px;
+}
+
+.project-link {
+    text-align: center;
+}
+
+.project img {
+    height:  400px;
+    max-width: 100%;
+    margin-right: 180px;
+}
+
+/* ABOUT */
+
+.about-section {
+    background-color: #B73418;
+    padding: 40px 0;
+}
+
+
+.about-content {
+    padding: 35px;
+    padding-left: 60px;
+    font-size: 45px;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 45px;
+    margin-bottom: 15px;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.about-h2{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    line-height: 1.1;
+    color: #000000;
+    font-weight: bold;
+}
