@@ -177,4 +177,40 @@ ul li a:hover{
 }
 
 
-/* Responsive */
+/* Projects */
+
+.project-p{
+    font-size: 30px;
+    margin-left: 25px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.project-a{
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-left: 15px;
+}
+
+.project-a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+/* Image JESUSAVES */
+
+.image-container-js {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-js {
+    margin: 15px;
+    padding: 30px;
+    width: 482px;
+    height: 960px;
+    margin-right: 20px; /* Espacio entre imágenes */
+}
