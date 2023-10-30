@@ -214,3 +214,17 @@ ul li a:hover{
     height: 960px;
     margin-right: 20px; /* Espacio entre imágenes */
 }
+
+
+/* SOLMAINT IMG*/
+
+.image-solmaint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.image-solmaint img{
+    border-radius: 7px;
+}
