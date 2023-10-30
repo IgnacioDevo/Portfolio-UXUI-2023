@@ -284,7 +284,7 @@ ul li a:hover{
     }
     ul li a {
         color: blue;
-        text-decoration: underline;
+        text-decoration: none;
     }
     ul li a:hover{
         color: rgb(0, 0, 0);
@@ -308,7 +308,7 @@ ul li a:hover{
     }
     
     .image img {
-        height:  400px;
+        height:  430px;
         max-width: 100%;
     }
 }
