@@ -242,3 +242,129 @@ ul li a:hover{
     padding: 40px;
     width: 75%;
 }
+
+
+/* Media */
+
+/* Smartphone */
+
+@media screen and (min-width: 390px)  and ( max-width: 414px){
+    /* Navbar */
+    .navbar-left {
+        display: flex;
+        align-items: center;
+    }
+    
+    .link-name {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 40px;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    
+    .navbar-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar-right a {
+        font-size: 33px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-left: 0; 
+        margin-right: 0;
+    }
+    /* UL SOCIAL MEDIA */
+    .content {
+        background-color: #ffffff; /* Color de fondo para la sección */
+        padding: 1px;
+        margin-left: 28px;
+    }
+    ul li {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    ul li a {
+        color: blue;
+        text-decoration: underline;
+    }
+    ul li a:hover{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    /* Foto */
+    .middle-section {
+        padding: 15px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    .text {
+        padding: 5px;
+        font-size: 25px;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    
+    .image img {
+        height:  500px;
+        max-width: 100%;
+    }
+    /* Projects */
+
+
+
+    .projects-section {
+        padding: 0px;
+        margin-top: 0px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .project {
+        width: 100%; 
+        background-color: #fff;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .project-info {
+        text-align: start;
+        padding-bottom: 6px;
+    }
+
+    .project-text {
+        font-size: 28px;
+    }
+
+    .project-text a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .project-text a:hover{
+        text-decoration: underline;
+        color: blue;
+        }
+
+    .project-link {
+        text-align: center;
+    }
+
+    .project img {
+        height:  400px;
+        max-width: 100%;
+        margin-right: 180px;
+    }
+
+
+
+}
