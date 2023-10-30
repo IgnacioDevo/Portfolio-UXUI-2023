@@ -93,10 +93,6 @@ ul li a:hover{
     margin-right: 750px;
 }
 
-.image {
-    /* Estilos para la imagen, como márgenes, tamaño, etc. */
-}
-
 
 /* Projects */
 
@@ -312,7 +308,7 @@ ul li a:hover{
     }
     
     .image img {
-        height:  600px;
+        height:  400px;
         max-width: 100%;
     }
 }
@@ -362,4 +358,3 @@ ul li a:hover{
         font-weight: bold;
     }
     }
-}
