@@ -228,3 +228,17 @@ ul li a:hover{
 .image-solmaint img{
     border-radius: 7px;
 }
+
+/* Portfolio */
+
+.image-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.image-portfolio img{
+    padding: 40px;
+    width: 75%;
+}
