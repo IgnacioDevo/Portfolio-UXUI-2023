@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Helvetica";
     font-weight: 300;
+    scroll-behavior: smooth;
 }
 
 /* Navbar */
