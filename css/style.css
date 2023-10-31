@@ -94,6 +94,10 @@ ul li a:hover{
     margin-right: 750px;
 }
 
+/* .imgmobile {
+    display: none;
+} */
+
 
 /* Projects */
 
@@ -309,8 +313,7 @@ ul li a:hover{
     }
     
     .image img {
-        height:  430px;
-        max-width: 100%;
+        max-width: 95%;
     }
 }
 /* Projects */
@@ -358,4 +361,6 @@ ul li a:hover{
         color: #000000;
         font-weight: bold;
     }
-    }
+}
+
+
