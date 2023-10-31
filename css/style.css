@@ -362,5 +362,36 @@ ul li a:hover{
         font-weight: bold;
     }
 }
+/* JESUSAVES */
+@media screen and (max-width: 767px) {
+    .image-container-js {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
 
+    .image-js {
+        max-width: 100%; 
+        height: auto; 
+        margin: 15px;
+        padding: 30px;
+        width: 100%; 
+        margin-right: 0; 
+        margin-left: 0;
+    }
+    
+    .project-p{
+        padding: 20px;
+    }
+
+    .project-a{
+        margin-left: 40px;
+    }
+
+    .image-solmaint img{
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+}
 
