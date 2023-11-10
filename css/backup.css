@@ -1,0 +1,413 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica";
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.navbar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 100; 
+    transition: top 0.3s;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.link-name {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 60px;
+    margin-left: 35px;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right a {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 20px; 
+    margin-right: 50px;
+}
+
+/* UL SOCIAL MEDIA */
+
+.content {
+    margin-top: 60px;
+    background-color: #ffffff; /* Color de fondo para la sección */
+    padding: 10px;
+    margin-left: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+/* Foto */
+
+.middle-section {
+    background-color: #ffffff; /* Color de fondo para la sección */
+    padding: 60px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-right: 750px;
+}
+
+/* .imgmobile {
+    display: none;
+} */
+
+
+/* Projects */
+
+.projects-section {
+    background-color: #ffffff;
+    padding: 65px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 48%; 
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.project-info {
+    text-align: start;
+    padding-bottom: 6px;
+}
+
+.project-text {
+    font-size: 40px;
+}
+
+.project-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.project-text a:hover{
+    text-decoration: underline;
+    color: blue;
+    }
+
+.project-link {
+    text-align: center;
+}
+
+.project img {
+    height:  400px;
+    max-width: 100%;
+    margin-right: 180px;
+}
+
+/* ABOUT */
+
+.about-section {
+    background-color: #B73418;
+    padding: 40px 0;
+}
+
+
+.about-content {
+    padding: 35px;
+    padding-left: 60px;
+    font-size: 45px;
+}
+
+
+
+.about-text {
+    font-size: 45px;
+    margin-bottom: 15px;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.about-h3{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    line-height: 1.1;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/* Projects */
+
+.project-p{
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 40px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.project-a{
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-left: 15px;
+}
+
+.project-a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+/* Image JESUSAVES */
+
+.image-container-js {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-js {
+    margin: 15px;
+    padding: 30px;
+    width: 482px;
+    height: 960px;
+    margin-right: 20px; /* Espacio entre imágenes */
+}
+
+
+/* SOLMAINT IMG*/
+
+.image-solmaint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.image-solmaint img{
+    border-radius: 7px;
+}
+
+/* Portfolio */
+
+.image-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.image-portfolio img{
+    padding: 40px;
+    width: 75%;
+}
+
+
+/* Media */
+
+/* Smartphone */
+
+@media screen and (min-width: 390px)  and ( max-width: 414px){
+    /* Navbar */
+    .navbar {
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 122px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        z-index: 100; 
+        transition: top 0.3s;
+    }
+    .link-name {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 40px;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    
+    .navbar-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar-right a {
+        font-size: 33px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-left: 0; 
+        margin-right: 0;
+    }
+    /* UL SOCIAL MEDIA */
+    .content {
+        background-color: #ffffff; 
+        padding: 1px;
+        padding-top: 60px;
+        margin-left: 28px;
+    }
+    ul li {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    ul li a {
+        color: blue;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    /* Foto */
+    .middle-section {
+        padding: 15px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    .text {
+        padding: 5px;
+        font-size: 25px;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    
+    .image img {
+        max-width: 95%;
+    }
+}
+/* Projects */
+
+@media screen and (max-width: 767px) {
+    .projects-section {
+        padding: 20px; 
+    }
+
+    .project {
+        width: 100%; 
+        padding: 20px;
+    }
+
+    .project-text {
+        font-size: 22px; 
+    }
+
+    .project-link img {
+        height: auto; 
+        max-width: 100%; 
+        margin-right: 0; 
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .about-content {
+        padding: 20px; 
+        padding-left: 30px; 
+        font-size: 30px; 
+    }
+
+    .about-text {
+        font-size: 22px; 
+        margin-bottom: 10px; 
+        line-height: 1.2; 
+        color: #ffffff;
+    }
+
+    .about-h3 {
+        margin-top: 30px; 
+        margin-bottom: 18px; 
+        line-height: 1.2; 
+        color: #000000;
+        font-weight: bold;
+    }
+}
+/* JESUSAVES */
+@media screen and (max-width: 767px) {
+    .image-container-js {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .image-js {
+        max-width: 100%; 
+        height: auto; 
+        margin: 15px;
+        padding: 30px;
+        width: 100%; 
+        margin-right: 0; 
+        margin-left: 0;
+    }
+    
+    .project-p{
+        padding-top: 120px;
+    }
+
+    .project-a{
+        margin-left: 40px;
+    }
+
+    .image-solmaint img{
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
